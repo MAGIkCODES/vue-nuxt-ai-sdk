@@ -1,0 +1,29 @@
+// {
+//   "compilerOptions": {
+//     "noEmit": true,
+//     "target": "esnext",
+//     "module": "nodenext",
+//     "rewriteRelativeImportExtensions": true,
+//     "erasableSyntaxOnly": true,
+//     "verbatimModuleSyntax": true
+//   },
+//   "include": ["**/*.ts"],
+//   "exclude": ["node_modules"]
+// }
+
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "types": ["node"], 
+    "rewriteRelativeImportExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
