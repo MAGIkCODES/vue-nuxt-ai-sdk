@@ -1,5 +1,5 @@
 {
-  "name": "ai-sdk-course",
+  "name": "ai-sdk",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@ai-sdk/google": "^3.0.34",
-    "ai": "^6.0.105"
+    "ai": "^6.0.105",
+    "zod": "^4.3.6"
   }
 }
